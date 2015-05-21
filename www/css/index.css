@@ -93,9 +93,29 @@ h1 {
 }
 
 .event.received {
-    background-color:#4B946A;
+    background-color:#000000;
     display:none;
 }
+p#open
+{
+	position: relative;
+	margin-top:70%;
+	text-align:center;
+	border-color: #FFFFFF;
+}
+a#pokedex
+{
+	text-decoration:none;
+	color: #000000;
+	font-size:24px;
+
+}
+img
+{
+		border-color: #FFFFFF;
+		border-radius: 10px;
+}
+
 
 @keyframes fade {
     from { opacity: 1.0; }
