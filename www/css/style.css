@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+img
+{
+	position:absolute;
+	height: 100%;
+	bottom: 10%;
+	background-color: #BE1212;
+}
+body
+{
+	background-color: #BE1212;
+}
