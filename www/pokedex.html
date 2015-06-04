@@ -1,50 +1,70 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<style>
-body
-{
-	/*background-image: url("img/backgroundPokedex.png");*/
-	height:100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-img#fullscreenPokedex
-{
-	z-index:-999;
-	min-height: 100%;
-	min-width: 100px;
-	width: 100%;
-	height: auto;
-	position:fixed;
-	top:0;
-	left:0;
-}
-div#openPokedex
-{
-	/*bottom:5%;
-	left: 50%;
-	margin: 0 auto;
-	width: auto;*/
-	position: relative;
-  width: 800px;
-  min-height: 400px;
-  margin: 100px auto;
-}
-</style>
-<script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <!--<script type="text/javascript">
-            app.initialize();
-        </script>-->
-</head>
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
 
-<body>
-<img src="img/Pokedex dylan.png" id="fullscreenPokedex" />
-<div id="openPokedex">
-<!--<img src="img/pijlEnBalk.png" width="523px" height="84px"/></div>-->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/angular.js"></script>
+  </head>
+  <body>
+  <ion-header-bar class="bar-stable">
+      <!--<h1 class="title">Test</h1>-->
+        <img src="img/actionbar.png" width="100%" height="100%" />
+      </ion-header-bar>
+  <div class="list">
+
+  <div class="item item-divider">
+    Starter Pokemon
+  </div>
+<div class="border">
+  <a class="item" href="#">
+  <img src="img/bulba.png" />
+    <span id="starter">001: Bulbasaur<br />
+    Type: Grass</span>
+  </a>
+  <a class="item" href="#">
+  <img src="img/char.png" />
+    <span id="starter">004: Charmander<br />
+    Type: Fire</span>
+  </a>
+	<a class="item" href="#">
+    <img src="img/squirt.png" />
+    <span id="starter">007: Squirtle<br />
+    Type: Water</span>
+  </a>
+  <a class="item" href="#">
+    <img src="img/cat.png" />
+    <span id="starter">010: Caterpie<br />
+    Type: Bug</span>
+  </a>
+  <a class="item" href="#">
+    <img src="img/weed.png" />
+    <span id="starter">013: Weedle<br />
+    Type: Bug/Poison</span>
+  </a>
+  <a class="item" href="#">
+    <img  src="img/pid.png" />
+    <span id="starter">016: Pidgey<br />
+    Type: Normal/Flying</span>
+  </a>
+ </div> 
+</div>
+<button id="button" class="button button icon icon ion-chevron-right"></button>
 </body>
 </html>

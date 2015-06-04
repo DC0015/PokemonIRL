@@ -15,6 +15,7 @@ angular.module('starter', ['ionic'])
 		api_key: 'eb086273d90ca1b92b862336acc135eef75ec6b7a9cb500a',
 		//The CGM project ID (project number) from your Google Developter Console (un-comment if used)
 		//gcm_id: 'YOUR_GCM_ID'
+		
 	});
 }])
 .run(function($ionicPlatform) {
@@ -28,4 +29,10 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+  
 })
+/*pokemon.controller("controller", ["$stateparams", "$scope", function($stateparams, $scope)
+{
+	$scope.onDrag = function (event)*/
+
+

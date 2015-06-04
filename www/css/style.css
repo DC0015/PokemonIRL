@@ -1,12 +1,66 @@
 /* Empty. Add your own CSS if you like */
-img
+img#open
 {
-	position:absolute;
-	height: 100%;
-	bottom: 10%;
+	bottom: 5%;
 	background-color: #BE1212;
+	z-index:-999;
+	/*min-height:100%;*/
+	min-width:100px;
+	width:95%;
+	/*height: auto;*/
+	position: fixed;
+	/*top:0;*/
+	left:2.5%;
+}
+div#pijlFooter
+{
+	height:68px;
+	width:100%;
+	position:absolute;
+	left: 25%;
+	bottom:10%;
 }
 body
 {
+	/*height:100%;*/
+	width: 100%;
+	padding: 0;
+	margin: 0;
 	background-color: #BE1212;
+}
+span#starter
+{
+	margin-left: 5%;
+	/*position:relative;
+	top: -100%;*/
+	position:absolute;
+	top: 30%;
+}
+button#button
+{
+	float: right;
+	margin-bottom: 5%;
+	margin-right: 5%;
+}
+img#test
+{
+	vertical-align:middle;
+}
+.list
+{
+	background-color: #78D0E8;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.border
+{
+	border-left: 10px solid #ffffff;
+	border-right: 10px solid #ffffff;
+	border-bottom: 10px solid #ffffff;
+}
+a.item
+{
+	background-color: #78D0E8;
+	
 }
